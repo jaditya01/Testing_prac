@@ -4,7 +4,7 @@ package org.example;
  * Hello world!
  *
  */
-public class App 
+public class CalculateWaterBill
 {
 
     public static double calculateWaterBill(double gallonUsage){
@@ -22,6 +22,6 @@ public class App
     }
     public static void main( String[] args )
     {
-        System.out.println(App.calculateWaterBill(1500));
+        System.out.println(CalculateWaterBill.calculateWaterBill(1500));
     }
 }
